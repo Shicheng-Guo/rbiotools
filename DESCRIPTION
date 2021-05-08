@@ -1,15 +1,19 @@
 Package: rbiotools
 Type: Package
-Title: What the Package Does (Title Case)
+Title: biocomputational tools for computational biology
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Shicheng Guo <shihcheng.guo@gmail.com>
+Maintainer: Shicheng Guo<Shicheng.Guo@hotmail.com>
+Description: rbiotools is a R package for computational biology and biomedical research
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/Rheumatology/rbiotools
-BugReports: https://github.com/Rheumatology/rbiotools/issues
+URL: https://github.com/Shicheng-Guo/rbiotools
+BugReports: https://github.com/Shicheng-Guo/rbiotools/issues
 Depends: 
     R (>= 2.10)
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

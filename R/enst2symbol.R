@@ -1,6 +1,6 @@
 #' ENST to Symbol
 #'
-#' @param ENST
+#' @param ENST input ENST ID
 #'
 #' @return
 #' @export
@@ -12,7 +12,3 @@ enst2symbol<-function(ENST){
   Symbol<-db[match(ENST,db$V7),4]
   return(Symbol)
 }
-
-library("usethis")
-db<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/AnnotationDatabase/master/ENSG.ENST.ENSP.Symbol.hg19.bed",sep="\t")
-use_data(db)

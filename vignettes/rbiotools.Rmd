@@ -1,0 +1,22 @@
+---
+title: "rbiotools"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{rbiotools}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library("rbiotools")
+library("usethis")
+#install.packages("rlang", dependencies = c("Depends", "Imports", "LinkingTo", "Suggests"))
+#tools::resaveRdaFiles("./data/db.rda",compress="xz",compression_level =9)
+```
