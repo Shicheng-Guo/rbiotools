@@ -16,6 +16,3 @@
 hello <- function() {
   print("Hello, world!")
 }
-
-usethis::use_github(protocol = "https")
-? use_github
